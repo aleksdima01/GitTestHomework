@@ -3,6 +3,7 @@ package Toys;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+//Класс, задающий приоритетную очередь
 public class PriorityQ {
 
     SaveT0File save = new SaveT0File();
@@ -18,7 +19,6 @@ public class PriorityQ {
     public void add(Toy toy) {
         queue.add(toy);
     }
-
 
     public void get() {
         Toy toy = queue.poll();
@@ -37,6 +37,3 @@ public class PriorityQ {
                 '}';
     }
 }
-
-
-
