@@ -1,5 +1,6 @@
 package Toys;
 
+//Класс, описывающий игрушку.
 public class Toy {
     private String name;
     private int id;
