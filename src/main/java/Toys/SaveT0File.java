@@ -4,8 +4,8 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+//Класс, работающий с файлом.
 public class SaveT0File {
-
 
     public void save(String str) {
         {
